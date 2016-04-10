@@ -2,7 +2,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
-        set <- function(y) {   #set the value of the matrix
+        set <- function(y) {   #set the value of the matrix to null
                 x <<- y
                 m <<- NULL
         }
